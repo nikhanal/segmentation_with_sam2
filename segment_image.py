@@ -85,14 +85,14 @@ def main():
     device = device_initialization()
     model = initialize_sam2(device)
     
-    image2 = view_image('./assets/football.jpg', view=False)
+    image2 = view_image('../files/football.jpg', view=False)
     boxes = np.array([
         [434, 244, 512, 349],
         [357, 103, 1233, 771]
     ])
     process_image(image2, model, random_color=True, input_boxes=boxes)
     
-    image1 = view_image('./assets/dozer.webp', view=False)
+    image1 = view_image('../files/dozer.webp', view=False)
     points = np.array([[250, 200], [450, 200]], dtype=np.float32)
     labels = np.array([1, 1], dtype=np.int32)
     process_image(image1, model, random_color=False, input_boxes=None,input_points=points,input_label=labels) 
