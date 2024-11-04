@@ -1,1 +1,1 @@
-# segmentation_with_sam2
+# Segmentation Assignment
