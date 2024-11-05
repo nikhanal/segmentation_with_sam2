@@ -1,6 +1,6 @@
 # Segmentation with SAM 2
 
-This repository contains code for performing image segmentation using SAM 2, a model by Meta designed for high-quality segmentation tasks.
+This repository contains code for performing image and video segmentation using SAM 2, a model by Meta designed for high-quality segmentation tasks.
 
 ## Setup & Installation
 
