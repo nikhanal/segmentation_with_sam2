@@ -133,5 +133,5 @@ def main(image_paths):
         process_image(image, model, random_color=False, input_boxes=None, input_points=points, input_labels=labels)
 
 if __name__ == '__main__':
-    image_paths = ['/Users/spiny/Desktop/Job/segmentation_with_sam2/files/dozer.webp']  
+    image_paths = ['../files/dozer.webp']  
     main(image_paths)
